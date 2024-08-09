@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My apps develop</title>
+  </head>
+  <head>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+      }
+      .section-container {
+        width: 330px;
+        height: 670px;
+        background: rgb(242, 242, 242);
+        margin: 0 auto;
+        margin-top: 15px;
+        border-radius: 30px;
+        box-shadow: 0px 0px 2px black;
+      }
+      .logo-container {
+        width: 108px;
+        height: 35px;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .logo {
+        width: 110px;
+        height: 33px;
+        padding-top: 20px;
+      }
+
+      .next-name h1 {
+        width: 95px;
+        height: 36px;
+        margin: 0 auto;
+        color: rgb(56, 56, 56);
+        font-family: sans-serif;
+        font-weight: 800;
+        padding-top: 60px;
+        padding-left: 15px;
+      }
+
+      .name p {
+        color: rgb(56, 56, 56);
+        margin: 0 auto;
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+        padding-top: 20px;
+      }
+
+      .form {
+        margin: 30px 20px;
+      }
+
+      input {
+        width: 293px;
+        height: 60px;
+        margin: 0 auto;
+        align-items: center;
+        box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid rgb(184, 169, 169);
+        border-radius: 30px;
+        opacity: 0.6;
+      }
+      .text {
+        color: rgb(180, 172, 172);
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: left;
+        padding-left: 20px;
+        text-transform: capitalize;
+      }
+
+      .recovery {
+        font-family: sans-serif;
+        margin-left: 40px;
+        font-size: 13px;
+        font-weight: 700;
+      }
+
+      .recovery-password {
+        color: rgb(106, 102, 102);
+      }
+
+      .recovery-password:active {
+        color: rgb(87, 82, 82);
+      }
+
+      .button {
+        width: 293px;
+        height: 60px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        border: 1px solid rgb(242, 242, 242);
+        border-radius: 30px;
+        margin-top: 30px;
+        border-radius: 20px;
+        box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.04);
+        background: rgb(66, 200, 60);
+      }
+
+      .btn {
+        color: rgb(242, 242, 242);
+        font-family: sans-serif;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 17px;
+      }
+
+      .button:hover {
+        background-color: rgb(16, 179, 16);
+      }
+
+      .or {
+        width: 14px;
+        height: 15px;
+        margin: 0 auto;
+        margin-top: 15px;
+      }
+
+      #or {
+        color: rgb(56, 56, 56);
+        font-family: sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: capitalize;
+      }
+      .footer-container {
+        /* width:104px; */
+        margin: 0 auto;
+        display: flex;
+        /* flex-direction: row; */
+        /* justify-content: space-between; */
+        align-items: center;
+        margin-left: 87px;
+      }
+      .footer-container .footer-social img {
+        /* width: 104px;
+    display: ; */
+        padding: 15px;
+        padding-top: 30px;
+      }
+
+      #google {
+        width: 40px;
+      }
+
+      #apple {
+        width: 82px;
+      }
+
+      .register {
+        display: flex;
+        margin-top: 13px;
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        margin-left: 85px;
+      }
+
+      #register {
+        color: rgb(106, 102, 102);
+      }
+
+      #register-now {
+        color: rgb(106, 102, 102);
+      }
+
+      #register-now:active {
+        color: rgb(31, 30, 30);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="section-container">
+      <div class="logo-container">
+        <img src="spotify-removebg-preview.png" class="logo" alt="" />
+      </div>
+
+      <div class="next-name">
+        <h1>Sign In</h1>
+      </div>
+
+      <div class="name">
+        <p>If you need any support click here</p>
+      </div>
+
+      <div class="form">
+        <label for="name">
+          <input
+            type="text"
+            class="text"
+            placeholder="Enter Username Or Email"
+          />
+        </label>
+
+        <br /><br />
+
+        <label for="password">
+          <input type="password" class="text" placeholder="Password" />
+        </label>
+      </div>
+
+      <div class="recovery">
+        <a href="#" class="recovery-password">Recovery Password</a>
+      </div>
+
+      <div class="button">
+        <p class="btn">Sign In</p>
+      </div>
+
+      <div class="or">
+        <p id="or">Or</p>
+      </div>
+
+      <div class="footer-container">
+        <div class="footer-social">
+          <a
+            target="_blank"
+            href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F"
+          >
+            <img src="google-removebg-preview.png" alt="" id="google"
+          /></a>
+
+          <a href="https://github.com/Faisal0fa" target="_blank"
+            ><img src="apple-removebg-preview.png" alt="apple" id="apple"
+          /></a>
+        </div>
+      </div>
+
+      <div class="register">
+        <p id="register">Not a Member ?</p>
+        <a href="" id="register-now">Register Now</a>
+      </div>
+    </section>
+  </body>
+</html>
